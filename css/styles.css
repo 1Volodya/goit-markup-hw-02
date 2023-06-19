@@ -99,7 +99,6 @@ body {
 }
 
 
-
 .facts {
     color: var(--secondary-black-color);
     font-family: 'Roboto', sans-serif;
@@ -128,24 +127,28 @@ body {
     letter-spacing: 0.02em;
 }
 .directions {
+    color: var(--secondary-black-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--secondary-black-color);
+    
 }
 .team {
+    color: var(--secondary-black-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--secondary-black-color);
+    
 }
 .team-title {
     color: var(--secondary-black-color);
@@ -154,6 +157,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
     letter-spacing: 0.02em;
 }
 .team-taxt {
@@ -162,6 +166,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
     letter-spacing: 0.02em;
 }
 
@@ -202,8 +207,6 @@ body {
 .filters-button {
     background: #F4F4FD;
     color: #4D5AE5;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
