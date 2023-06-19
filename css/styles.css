@@ -11,87 +11,106 @@ body {
     color: var(--primary-black-color);
     background: var(--primary-white-color);
 }
-a {
+/* a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
-}
+} */
 
 
 .logo {
-    color: #2E2F42;
-    font-family: 'Raleway';
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-section {
-    color: #4D5AE5;
+    color: #2E2F42;
+
 }
 .footer-logo {
     color: var(--secondary-white-color);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
 }
 
-.head-link {
+.list-nav {
     color: var(--secondary-black-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.list-nav:hover,
+.list-nav:focus {
+    color: #404BBF;
+}
 
+.contact {
+    font-style: normal;
+}
 .contact-link {
     color: var(--primary-black-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF;
+}
 .hero {
     background: var(--secondary-black-color);
-    font-family: 'Roboto';
+    text-align: center;
+}
+.hero-main {
+    color: var(--primary-white-color);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
-h1 {
-    color: var(--primary-white-color);
-}
+
+
 .primery-button {
     background: #4D5AE5;
     color: var(--primary-white-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    cursor: pointer;
 }
+.primery-button:hover,
+.primery-button:focus {
+    background: #404BBF;
+}
+
 
 
 .facts {
     color: var(--secondary-black-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -102,7 +121,7 @@ h1 {
 }
 .facts-title {
     color: var(--secondary-black-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -110,7 +129,7 @@ h1 {
     letter-spacing: 0.02em;
 }
 .facts-taxt {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -118,22 +137,22 @@ h1 {
     letter-spacing: 0.02em;
 }
 .directions {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--secondary-black-color);
 }
 .team {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -141,7 +160,7 @@ h1 {
 }
 .team-title {
     color: var(--secondary-black-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -149,7 +168,7 @@ h1 {
     letter-spacing: 0.02em;
 }
 .team-taxt {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -158,8 +177,11 @@ h1 {
 }
 
 
-.section-team {
+.team-section {
     background: var(--secondary-white-color);
+}
+.team-section-part {
+    background: var(--primary-white-color);
 }
 .footer {
     background: var(--secondary-black-color);
@@ -170,8 +192,10 @@ h1 {
 
 
 /* portfolio */
+
+
 .filters-title-hide {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -185,14 +209,15 @@ h1 {
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .filters-button:hover,
@@ -200,36 +225,23 @@ h1 {
 .filters-button:active {
     background: #404BBF;
     color: #FFFFFF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
 }
 
-.project-title-hide {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: var(--secondary-black-color);
-}
-.project-section {
-    border: 1px solid #E7E9FC;
-}
+
 .project-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-black-color);
 }
 .project-taxt {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
